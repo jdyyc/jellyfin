@@ -44,7 +44,7 @@ namespace MediaBrowser.Providers.MediaInfo
         private readonly ILibraryManager _libraryManager;
         private readonly IMediaSourceManager _mediaSourceManager;
 
-        private readonly long _dummyChapterDuration = TimeSpan.FromMinutes(5).Ticks;
+        private readonly long _dummyChapterDuration = TimeSpan.FromMinutes(1).Ticks;
 
         public FFProbeVideoInfo(
             ILogger logger,
